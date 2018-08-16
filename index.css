@@ -19,3 +19,7 @@ body {
   font-size: 30px;
   display: none;
 }
+
+.feelings:hover .nested-list {
+  display: block;
+}
