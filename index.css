@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+.welcome-msg {
+  font-size: 60px;
+}
+
+.upper-level-list {
+  font-size: 40px;
+  list-style-type: none;
+}
+
+.nested-list {
+  font-size: 30px;
+  display: none;
+}
