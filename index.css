@@ -15,8 +15,21 @@ body {
   list-style-type: none;
 }
 
+.container {
+  padding: 20px;
+}
+
 .nested-list {
   font-size: 30px;
   display: none;
 }
 
+.feelings {
+  font-size: 40px;
+}
+
+.emoji {
+  float: left;
+  font-size: 40px;
+  padding-right: 5%;
+}
