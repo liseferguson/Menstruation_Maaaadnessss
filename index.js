@@ -1,11 +1,11 @@
-//wireframes!
 
 'use strict';
 
-function hoverOver() {
-  $(".feelings").hover(
-    function() {
-      $(".nested-list").show();
-    }
-  );
-}
+$(document).ready(function(){
+  $('.container').mouseover(function(event){
+    $(event.target).children('.nested-list').show()
+  })
+  $('.container').mouseout(function(event){
+   $(event.target).children('.nested-list').hide()
+  })
+})

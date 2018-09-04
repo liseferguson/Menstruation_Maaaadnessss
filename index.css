@@ -20,6 +20,3 @@ body {
   display: none;
 }
 
-.feelings:hover .nested-list {
-  display: block;
-}
