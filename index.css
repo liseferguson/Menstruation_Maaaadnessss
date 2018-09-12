@@ -28,6 +28,16 @@ body {
   font-size: 40px;
 }
 
+.feelings:hover, .nested-list li:hover {
+  color: red;
+  font-weight: bolder;
+}
+
+.nested-list li {
+  color: black;
+  list-style: none;
+}
+
 .emoji {
   float: left;
   font-size: 40px;
